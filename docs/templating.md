@@ -193,6 +193,14 @@ and `else`:
 {% endif %}
 ```
 
+You can check if a condition is false with `not`:
+
+```jinja
+{% if not hungry %}
+  I am full
+{% endif %}
+```
+
 You can also use if as an [inline expression](#if-expression).
 
 ### for
